@@ -1,7 +1,8 @@
 import React from "react";
+import GeneratorPageContainer from "./components/GeneratorPageContainer";
 
 const GeneratorPage = () => {
-  return <div>GeneratorPage</div>;
+  return <GeneratorPageContainer />;
 };
 
 export default GeneratorPage;

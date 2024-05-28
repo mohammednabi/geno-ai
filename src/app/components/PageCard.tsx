@@ -23,7 +23,7 @@ const PageCard = ({ title, img, description, url }: PageCardProps) => {
   return (
     <Link
       href={url}
-      className="bg-gradient-to-r from-stone-950 to-black w-full h-full flex flex-col gap-5 rounded-xl border-purple-500/25 shadow-sm shadow-purple-500 border-solid border-2 cursor-pointer "
+      className="bg-gradient-to-r from-stone-950 to-black w-full h-full flex flex-col gap-5 rounded-xl border-mainGreen/25 shadow-sm shadow-mainGreen-500 border-solid border-2 cursor-pointer "
     >
       <Image
         src={img}

@@ -16,11 +16,11 @@ const WhiteLogoCircle = ({ size = "md" }: WhiteLogoCircleProps) => {
       } ${size === "xl" && "h-16 w-16"} ${size === "2xl" && "h-20 w-20"} p-1`}
     >
       <Image
-        src={"/white-logo-without-text.webp"}
+        src={"/Geno new samall logo colored.webp"}
         alt=""
         width={1920}
         height={1080}
-        className="h-1/2 w-auto  "
+        className="h-3/4 w-auto  "
       />
     </div>
   );

@@ -11,13 +11,13 @@ interface HomePageContainerProps {
 const HomePageContainer = ({}: HomePageContainerProps) => {
   return (
     <div className=" flex flex-col gap-5  items-center w-full h-screen px-20 py-5">
-      <div className="flex  items-center gap-5">
+      <div className="flex flex-col  items-center gap-5">
         <Image
-          src={"/geno logo colored.webp"}
+          src={"/Geno new logo colored.webp"}
           alt=""
           width={1920}
           height={1080}
-          className="h-20 w-auto  "
+          className="h-12 w-auto  "
         />
         <h1 className="text-4xl capitalize font-bold ">select a tool</h1>
       </div>
