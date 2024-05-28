@@ -34,7 +34,7 @@ const BlockOfchatting = ({ question, answer }: BlockOfchattingProps) => {
             // 100, // Waits 100ms
           ]}
           wrapper="p"
-          speed={99}
+          speed={50}
           cursor={false}
           className="text-sm text-stone-400 col-start-2"
           // splitter={(answer)=>answer.split("*")}
